@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "2fcfabb3-3064-43ad-a185-fc08bcb400f2",
+		"name": "ExamenFinal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18013479"
+	},
+	"item": [
+		{
+			"name": "Registrar Vehiculo",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Vehiculos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8080/micerditoprueba",
+			"type": "string"
+		}
+	]
+}
