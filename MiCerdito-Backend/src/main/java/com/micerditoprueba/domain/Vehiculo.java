@@ -22,7 +22,7 @@ import java.util.Set;
 public class Vehiculo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idVehiculo;
+    private Integer idRegistro;
 
     @JsonFormat(pattern = "dd/MM/yyyy")
     @Column(name = "fecha_salida",nullable = true)
@@ -39,12 +39,12 @@ public class Vehiculo {
     @Column(name="producto_name", nullable = false)
     private String nombre_conductor;
 
-    public Integer getIdVehiculo() {
-        return idVehiculo;
+    public Integer getIdRegistro() {
+        return idRegistro;
     }
 
-    public void setIdVehiculo(Integer idVehiculo) {
-        this.idVehiculo = idVehiculo;
+    public void setIdRegistro(Integer idRegistro) {
+        this.idRegistro = idRegistro;
     }
 
     public Date getFechaSalida() {

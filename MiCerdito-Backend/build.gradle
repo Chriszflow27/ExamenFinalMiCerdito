@@ -5,7 +5,7 @@ plugins {
     id "org.sonarqube" version "3.4.0.2513"
 }
 
-group = 'com.lionsbeershop'
+group = 'com.micerditoprueba'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
@@ -21,8 +21,8 @@ repositories {
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "JampiV_Lion_Shop"
-        property "sonar.organization", "jampiv"
+        property "sonar.projectKey", "Chriszflow27_ExamenFinalMiCerdito"
+        property "sonar.organization", "chriszflow27"
         property "sonar.host.url", "https://sonarcloud.io"
     }
 }
